@@ -1,0 +1,77 @@
+{
+  "status": "success",
+  "responseCode": "0",
+  "data": {
+    "isPureOttUser": false,
+    "header": {
+      "title": "Me\n7042127666",
+      "uri": "myairtel://account?n=7042127666&res=true&reqc=10014",
+      "ctas": [
+        {
+          "title": "",
+          "uri": "myairtel://account?n=7042127666&res=true&reqc=10014",
+          "iconName": "home_manage_account_icon"
+        }
+      ],
+      "overflow": []
+    },
+    "footer": {
+      "title": "Manage Account",
+      "uri": "myairtel://account?n=7042127666&res=true&reqc=10014"
+    },
+    "accounts": [
+      {
+        "postpaidAccountDetails": {
+          "accountNo": "1320430580",
+          "unbillAmt": "152",
+          "outstandingAmt": "736.96",
+          "fromDate": "1496601000000",
+          "toDate": "1497551400000",
+          "fromDateNew": "05-06-2017",
+          "toDateNew": "16-06-2017"
+        },
+        "postpaid3GUsage": {
+          "usedData": "2.7316494",
+          "unUsedData": "24.26836",
+          "availableData": "27.00001",
+          "deltaData": "0.0"
+        },
+        "postpaidBillMode": {
+          "ebillStatus": "EMAIL",
+          "emailId": "testportalliveapp@gmail.com"
+        },
+        "postpaidCreditLimit": {
+          "creditLimit": "0"
+        },
+        "lob": "POSTPAID",
+        "accountSummary": {
+          "siNumber": "7042127666",
+          "circleId": "102",
+          "bsbCircleId": "dl",
+          "emailId": "testportalliveapp@gmail.com",
+          "account": "1320430580",
+          "imei": "352030070748034",
+          "isSSOFlag": "False",
+          "deleteSI": "False"
+        },
+        "type": 102,
+        "alerts": []
+      }
+    ],
+    "ctas": [
+      {
+        "title": "Manage Account",
+        "uri": "myairtel://account?n=7042127666&res=true&reqc=10014",
+        "iuri": ""
+      },
+      {
+        "title": "Pay Now",
+        "uri": "myairtel://pay_amount/?n=7042127666&amt=736.96",
+        "iuri": ""
+      }
+    ],
+    "content": {
+      "uri": "myairtel://account?n=7042127666&res=true&reqc=10014"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "actions": [
+      {
+        "iuri": "myairtel://swipe_pager?p=recharge&n=7042127666",
+        "icon": "apb_quick_recharge",
+        "qcId": "1",
+        "title": "Recharge",
+        "uri": "myairtel://pay?p=recharge&n=7042127666",
+        "iconUri": "http://ic.bsbportal.com/unsafe/http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/xhdpi/recharge-wicon.png"
+      },
+      {
+        "iuri": "myairtel://swipe_pager?p=utilities&n=7042127666",
+        "icon": "apb_quick_pay_bill",
+        "qcId": "2",
+        "title": "Pay Bills",
+        "uri": "myairtel://pay?p=utilities&n=7042127666",
+        "iconUri": "http://ic.bsbportal.com/unsafe/http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/xhdpi/pay-bills-wicon.png"
+      },
+      {
+        "iuri": "myairtel://account?p=bill_plan?n=7042127666",
+        "qcId": "3",
+        "title": "View Plan",
+        "uri": "myairtel://account?p=AccPosBilCon&sec=AccPostBillCont&n=7042127666",
+        "iconUri": "http://ic.bsbportal.com/unsafe/http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/xhdpi/view_plan_card_new.png"
+      },
+      {
+        "iuri": "myairtel://swipe_pager?p=send&opt=p2p&n=7042127666",
+        "icon": "apb_quick_send_money",
+        "qcId": "4",
+        "title": "Send Money",
+        "uri": "myairtel://wallet_actions?type=p2p&n=7042127666",
+        "iconUri": "http://ic.bsbportal.com/unsafe/http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/xhdpi/send-money-wicon.png"
+      },
+      {
+        "iuri": "myairtel://swipe_pager?p=send&opt=payotc&n=7042127666",
+        "icon": "apb_quick_pay_shop",
+        "qcId": "5",
+        "title": "Pay Shop",
+        "uri": "myairtel://wallet_actions?type=mert&n=7042127666",
+        "iconUri": "http://ic.bsbportal.com/unsafe/http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/xhdpi/pay-shop-wicon.png"
+      },
+      {
+        "iuri": "myairtel://swipe_pager?p=utilities&opt=electricity&n=7042127666",
+        "icon": "apb_quick_pay_utilities",
+        "qcId": "7",
+        "title": "Pay Utilities",
+        "uri": "myairtel://pay?p=utilities&opt=electricity&n=7042127666",
+        "iconUri": "http://ic.bsbportal.com/unsafe/http://s3-ap-southeast-1.amazonaws.com/myairtelapp/images/xhdpi/pay-utility-wicon.png"
+      }
+    ]
+  },
+  "status": "success",
+  "responseCode": "0",
+  "errorMsg": null
+}

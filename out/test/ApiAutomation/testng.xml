@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ApiTestingSuite">
+    <test name="ApiTest">
+        <packages>
+            <package name="com.myairtel.framework"/>
+            <package name="com.myairtel.test"/>
+        </packages>
+    </test>
+</suite>
